@@ -1,0 +1,22 @@
+.img-background {
+  background: url('http://courses.ics.hawaii.edu/ics314f20/morea/ui-frameworks/murphys-front.jpg');
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+  margin-top: -15px;
+  position: absolute;
+}
+.whole {
+  min-height: 100%;
+  margin-bottom: -142px;
+}
+h3 {
+  color: #f8f8ff;
+}
+.content {
+  flex: 1 0 auto;
+}
+.sticky-footer, .whole:after {
+  height: 142px;
+  background-color: darkgreen;
+}
